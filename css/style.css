@@ -1,0 +1,11 @@
+body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+}
+
+.main-wrapper {
+  background-color: red;
+  width: 200px;
+}
