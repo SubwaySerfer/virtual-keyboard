@@ -1,16 +1,17 @@
 /* eslint-disable import/extensions */
-// import * as line1 from './langs/ruLang.js';
 import { addKeys } from './modules/addKeys.js';
+import { initKeyboard } from './modules/initKeyboard.js';
+import { checkKeys } from './modules/checkKeys.js';
+// const body = document.querySelector('body');
 
-const body = document.querySelector('body');
+// body.insertAdjacentHTML(
+//   'afterbegin',
+//   '<div class="main-wrapper"><textarea class="main-txt">keyboard</textarea><div class="main-content"><ul class="content"></ul></div></div>'
+// );
 
-body.insertAdjacentHTML(
-  'afterbegin',
-  '<div class="main-wrapper"><textarea class="main-txt">keyboard</textarea><div class="main-content"><ul class="content"></ul></div></div>'
-);
+initKeyboard();
 const content = document.querySelector('.content');
-// console.log(content);
+const textArea = document.querySelector('.main-txt');
 addKeys(content);
-// line1.default.forEach((el) => console.log(el));
-
-// console.log(line1.default);
+// console.log(textArea);
+checkKeys(content, textArea);
