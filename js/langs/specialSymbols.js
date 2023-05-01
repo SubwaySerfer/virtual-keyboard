@@ -1,0 +1,17 @@
+export default [
+  'TAB',
+  'BACKSPACE',
+  'DEL',
+  'CAPS LOCK',
+  'ENTER',
+  'SPACE',
+  'CTRL',
+  'WIN',
+  'ALT',
+  'SHIFT R',
+  'UP',
+  'DOWN',
+  'LEFT',
+  'RIGHT',
+  'SHIFT',
+];
