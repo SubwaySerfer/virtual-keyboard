@@ -9,7 +9,7 @@ body.insertAdjacentHTML(
   '<div class="main-wrapper"><textarea class="main-txt">keyboard</textarea><div class="main-content"><ul class="content"></ul></div></div>'
 );
 const content = document.querySelector('.content');
-console.log(content);
+// console.log(content);
 addKeys(content);
 // line1.default.forEach((el) => console.log(el));
 
