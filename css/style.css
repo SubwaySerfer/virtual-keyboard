@@ -3,18 +3,21 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
+  background-color: antiquewhite;
+  padding-top: 15px;
 }
 
 .main-wrapper {
-  background-color: antiquewhite;
   width: 1000px;
-  height: 1000px;
+  height: auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-txt {
-  width: 100%;
+  width: 770px;
   height: 100px;
 }
 .main-content {

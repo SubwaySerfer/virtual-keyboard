@@ -41,7 +41,6 @@ export default [
   'j',
   'k',
   'l',
-  'l',
   ';',
   "'",
   'ENTER',

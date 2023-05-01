@@ -2,11 +2,9 @@ function otherKeys(elem, textArea) {
   // console.log(elem);
   switch (elem) {
     case 'SPACE':
-      // console.log('space');
       textArea.textContent += ' ';
       break;
     case 'ENTER':
-      console.log('enter');
       textArea.textContent += '\n';
       break;
     case 'BACKSPACE':
@@ -15,8 +13,11 @@ function otherKeys(elem, textArea) {
       break;
     case 'TAB':
       textArea.textContent += '\t';
+      break;
+    // case 'UP':
+    //   textArea.textContent += '&uarr';
     default:
-      console.log('Sorry');
+      '';
   }
 }
 
